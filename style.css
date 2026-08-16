@@ -1,0 +1,18 @@
+* { margin:0; padding:0; box-sizing:border-box; }
+body { font-family: 'Tahoma', sans-serif; background:#f6f8f6; color:#1f2937; line-height:1.8; }
+header { background:#0f6b3d; color:#fff; padding:24px 16px; text-align:center; }
+header h1 { font-size:1.6rem; margin-bottom:6px; }
+header p { opacity:.9; font-size:.95rem; }
+nav { background:#0a4d2c; display:flex; justify-content:center; gap:20px; padding:10px; flex-wrap:wrap; }
+nav a { color:#fff; text-decoration:none; font-size:.9rem; }
+.container { max-width:720px; margin:24px auto; padding:0 16px; }
+section { background:#fff; border-radius:12px; padding:20px; margin-bottom:20px; box-shadow:0 1px 4px rgba(0,0,0,.06); }
+h2 { color:#0f6b3d; margin-bottom:14px; font-size:1.2rem; }
+label { display:block; margin-top:12px; font-size:.9rem; font-weight:bold; }
+input, select { width:100%; padding:10px; margin-top:6px; border:1px solid #d1d5db; border-radius:8px; font-size:1rem; }
+button { margin-top:18px; width:100%; padding:12px; background:#0f6b3d; color:#fff; border:none; border-radius:8px; font-size:1rem; cursor:pointer; }
+button:hover { background:#0a4d2c; }
+#result { margin-top:18px; padding:16px; border-radius:8px; background:#eafaf0; display:none; text-align:center; font-size:1.1rem; font-weight:bold; }
+.faq-item { margin-bottom:14px; }
+.faq-item h3 { font-size:1rem; color:#0f6b3d; margin-bottom:4px; }
+footer { text-align:center; padding:20px; color:#6b7280; font-size:.85rem; }
