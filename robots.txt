@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://zakati.github.io/zakati/sitemap.xml
+Sitemap: https://radfan243.github.io/zakati2026/sitemap.xml
