@@ -126,10 +126,3 @@ async function calculateZakat() {
         `;
     }
 }
-
-document.addEventListener("DOMContentLoaded", () => {
-    const button = document.querySelector('button[onclick="calculateZakat()"]');
-    if (button) {
-        button.addEventListener("click", calculateZakat);
-    }
-});
