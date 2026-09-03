@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://radfan243.github.io/zakati2026/sitemap.xml
+Sitemap: https://zakatalmuslim.com/sitemap.xml
