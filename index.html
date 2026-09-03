@@ -4,101 +4,50 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>حاسبة الزكاة 2026 - احسب زكاة المال والذهب والفضة بدقة</title>
-<meta name="description" content="حاسبة الزكاة الشرعية المجانية - احسب زكاة المال والذهب والفضة والأسهم بسهولة ودقة حسب نصاب الزكاة المحدث.">
-<meta name="keywords" content="حاسبة الزكاة, زكاة المال, نصاب الزكاة, زكاة الذهب">
+<meta name="description" content="حاسبة الزكاة الشرعية المجانية - احسب زكاة المال والذهب والفضة والأسهم بسهولة ودقة حسب النصاب الشرعي.">
+<meta name="keywords" content="حاسبة الزكاة, زكاة المال, نصاب الزكاة, زكاة الذهب, زكاة الفضة">
 <link rel="stylesheet" href="style.css">
-
-<!-- Google AdSense -->
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7755549490998662" crossorigin="anonymous"></script>
 </head>
 <body>
-
 <header>
   <h1>حاسبة الزكاة</h1>
-  <p>احسب زكاة أموالك بدقة وسهولة حسب النصاب الشرعي المحدث</p>
+  <p>احسب زكاة أموالك بسهولة، مع معلومات إرشادية تساعدك على فهم طريقة الحساب.</p>
 </header>
-
-<nav>
-  <a href="#calculator">الحاسبة</a>
-  <a href="#guide">كيف تُحسب الزكاة</a>
-  <a href="#faq">أسئلة شائعة</a>
-  <a href="#about">من نحن</a>
-  <a href="#privacy">سياسة الخصوصية</a>
-  <a href="#contact">اتصل بنا</a>
+<nav aria-label="التنقل الرئيسي">
+  <a href="index.html">الحاسبة</a>
+  <a href="guide.html">كيف تُحسب الزكاة</a>
+  <a href="faq.html">أسئلة شائعة</a>
+  <a href="about.html">من نحن</a>
+  <a href="privacy.html">سياسة الخصوصية</a>
+  <a href="terms.html">الشروط والأحكام</a>
+  <a href="contact.html">اتصل بنا</a>
 </nav>
-
 <div class="container">
-
-  <section id="calculator">
-    <h2>حاسبة الزكاة</h2>
-
-    <label>المبلغ النقدي (المدخرات) بالدولار</label>
-    <input type="number" id="cash" placeholder="مثال: 5000">
-
-    <label>وزن الذهب الذي تملكه (بالجرام)</label>
-    <input type="number" id="gold" placeholder="مثال: 50">
-
-    <label>وزن الفضة التي تملكها (بالجرام)</label>
-    <input type="number" id="silver" placeholder="مثال: 0">
-
-    <label>قيمة عروض التجارة أو الأسهم (إن وجدت)</label>
-    <input type="number" id="trade" placeholder="مثال: 0">
-
-    <label>الديون المستحقة عليك (تُخصم من الوعاء)</label>
-    <input type="number" id="debt" placeholder="مثال: 0">
-
-    <button onclick="calculateZakat()">احسب الزكاة</button>
-
-    <div id="result"></div>
-  </section>
-
-  <section id="guide">
-    <h2>كيف تُحسب الزكاة؟</h2>
-    <p>تجب الزكاة على المال إذا بلغ النصاب (ما يعادل 85 جرام ذهب تقريبًا) وحال عليه الحول (مرّت عليه سنة هجرية كاملة). مقدار الزكاة الواجب إخراجه هو 2.5% من إجمالي المال الزكوي بعد خصم الديون.</p>
-    <p style="margin-top:10px">تشمل الأموال الزكوية: النقد والمدخرات، الذهب والفضة، عروض التجارة، والأسهم المخصصة للتداول.</p>
-  </section>
-
-  <section id="faq">
-    <h2>أسئلة شائعة</h2>
-    <div class="faq-item">
-      <h3>هل تجب الزكاة على راتبي مباشرة؟</h3>
-      <p>لا، الزكاة تجب على المال المدّخر الذي حال عليه الحول وبلغ النصاب، وليس على الراتب فور استلامه.</p>
-    </div>
-    <div class="faq-item">
-      <h3>ماذا لو كان عندي ديون؟</h3>
-      <p>تُخصم الديون الحالّة (المستحقة السداد) من إجمالي المال قبل حساب الزكاة.</p>
-    </div>
-    <div class="faq-item">
-      <h3>هل هذه الحاسبة دقيقة شرعيًا؟</h3>
-      <p>الحاسبة تقدّم تقديرًا عامًا حسب القواعد المعروفة، وننصح دائمًا بالرجوع لأهل العلم أو دار الإفتاء لحالتك الخاصة.</p>
-    </div>
-  </section>
-
-  <section id="about">
-    <h2>من نحن</h2>
-    <p>موقعنا يقدّم أدوات مجانية تساعد المستخدم العربي على حساب زكاة أمواله بسهولة ودقة، اعتمادًا على القواعد الشرعية المعروفة والنصاب المحدث.</p>
-  </section>
-
-  <section id="privacy">
-    <h2>سياسة الخصوصية</h2>
-    <p>لا يقوم هذا الموقع بجمع أي بيانات شخصية من المستخدمين. الأرقام المدخلة في الحاسبة تُستخدم فقط لإجراء الحساب داخل المتصفح ولا تُخزَّن أو تُرسَل لأي خادم.</p>
-    <p style="margin-top:10px">قد تُستخدم إعلانات من أطراف ثالثة (مثل Google AdSense) لعرض إعلانات مناسبة، وقد تستخدم هذه الجهات ملفات تعريف الارتباط (Cookies) وفق سياساتها الخاصة.</p>
-  </section>
-
-  <section id="terms">
-    <h2>الشروط والأحكام</h2>
-    <p>باستخدامك لهذا الموقع فإنك توافق على أن النتائج المقدمة من الحاسبة هي تقديرية وليست فتوى شرعية رسمية. يُنصح بمراجعة جهة شرعية موثوقة لحالتك الخاصة.</p>
-  </section>
-
-  <section id="contact">
-    <h2>اتصل بنا</h2>
-    <p>لأي استفسار أو ملاحظة، يمكنكم التواصل معنا عبر البريد الإلكتروني: <strong>radfanr22@gmail.com</strong></p>
-  </section>
-
+<section id="calculator">
+<h2>حاسبة الزكاة</h2>
+<label for="cash">المبلغ النقدي (المدخرات) بالدولار</label>
+<input type="number" id="cash" placeholder="مثال: 5000" min="0">
+<label for="gold">وزن الذهب الذي تملكه (بالجرام)</label>
+<input type="number" id="gold" placeholder="مثال: 50" min="0">
+<label for="silver">وزن الفضة التي تملكها (بالجرام)</label>
+<input type="number" id="silver" placeholder="مثال: 0" min="0">
+<label for="trade">قيمة عروض التجارة أو الأسهم (إن وجدت)</label>
+<input type="number" id="trade" placeholder="مثال: 0" min="0">
+<label for="debt">الديون المستحقة عليك (تُخصم من الوعاء)</label>
+<input type="number" id="debt" placeholder="مثال: 0" min="0">
+<button type="button" onclick="calculateZakat()">احسب الزكاة</button>
+<div id="result" aria-live="polite"></div>
+</section>
+<section>
+<h2>معلومة مهمة</h2>
+<p>هذه الحاسبة أداة مساعدة للتقدير وليست فتوى شرعية. قد تختلف أحكام الزكاة باختلاف نوع المال والديون والظروف، لذلك يُستحسن سؤال جهة علمية موثوقة عند وجود حالة خاصة.</p>
+</section>
 </div>
-
-<footer>© 2026 حاسبة الزكاة. جميع الحقوق محفوظة.</footer>
-
+<footer>
+<p>© 2026 حاسبة الزكاة. جميع الحقوق محفوظة.</p>
+<p><a href="about.html">من نحن</a> | <a href="privacy.html">الخصوصية</a> | <a href="terms.html">الشروط</a> | <a href="contact.html">اتصل بنا</a></p>
+</footer>
 <script src="script.js"></script>
 </body>
 </html>
