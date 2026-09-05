@@ -4,15 +4,15 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>حاسبة الزكاة 2026 - احسب زكاة المال والذهب والفضة بدقة</title>
-<meta name="description" content="حاسبة الزكاة الشرعية المجانية - احسب زكاة المال والذهب والفضة والأسهم بسهولة ودقة حسب النصاب الشرعي.">
-<meta name="keywords" content="حاسبة الزكاة, زكاة المال, نصاب الزكاة, زكاة الذهب, زكاة الفضة">
+<meta name="description" content="حاسبة الزكاة الشرعية المجانية - احسب زكاة المال والذهب والفضة والأسهم بسهولة، واعرف النصاب ومقدار الزكاة بنسبة 2.5% عند استحقاقها.">
+<meta name="keywords" content="حاسبة الزكاة, زكاة المال, نصاب الزكاة, زكاة الذهب, زكاة الفضة, 2.5% الزكاة">
 <link rel="stylesheet" href="style.css">
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7755549490998662" crossorigin="anonymous"></script>
 </head>
 <body>
 <header>
   <h1>حاسبة الزكاة</h1>
-  <p>احسب زكاة أموالك بسهولة، مع معلومات إرشادية تساعدك على فهم طريقة الحساب.</p>
+  <p>أدخل أموالك وأصولك، وستحسب الحاسبة إجمالي المال الزكوي والنصاب ومقدار الزكاة المستحقة.</p>
 </header>
 <nav aria-label="التنقل الرئيسي">
   <a href="index.html">الحاسبة</a>
@@ -25,23 +25,37 @@
 </nav>
 <div class="container">
 <section id="calculator">
-<h2>حاسبة الزكاة</h2>
-<label for="cash">المبلغ النقدي (المدخرات) بالدولار</label>
-<input type="number" id="cash" placeholder="مثال: 5000" min="0">
+<h2>احسب زكاتك</h2>
+<p>أدخل المبالغ التي تريد حسابها. الزكاة على المال النقدي وعروض التجارة تُحسب بنسبة <strong>2.5%</strong> عند بلوغ النصاب واستكمال الحول.</p>
+
+<label for="cash">المال النقدي والمدخرات بالدولار</label>
+<input type="number" id="cash" placeholder="مثال: 5000" min="0" step="0.01">
+
 <label for="gold">وزن الذهب الذي تملكه (بالجرام)</label>
-<input type="number" id="gold" placeholder="مثال: 50" min="0">
+<input type="number" id="gold" placeholder="مثال: 50" min="0" step="0.01">
+
 <label for="silver">وزن الفضة التي تملكها (بالجرام)</label>
-<input type="number" id="silver" placeholder="مثال: 0" min="0">
-<label for="trade">قيمة عروض التجارة أو الأسهم (إن وجدت)</label>
-<input type="number" id="trade" placeholder="مثال: 0" min="0">
-<label for="debt">الديون المستحقة عليك (تُخصم من الوعاء)</label>
-<input type="number" id="debt" placeholder="مثال: 0" min="0">
-<button type="button" onclick="calculateZakat()">احسب الزكاة</button>
+<input type="number" id="silver" placeholder="مثال: 0" min="0" step="0.01">
+
+<label for="trade">قيمة عروض التجارة أو الأسهم (إن وجدت) بالدولار</label>
+<input type="number" id="trade" placeholder="مثال: 0" min="0" step="0.01">
+
+<label for="debt">الديون المستحقة عليك التي تريد احتسابها كخصم</label>
+<input type="number" id="debt" placeholder="مثال: 0" min="0" step="0.01">
+
+<button type="button" onclick="calculateZakat()">احسب مقدار الزكاة</button>
 <div id="result" aria-live="polite"></div>
 </section>
+
 <section>
-<h2>معلومة مهمة</h2>
-<p>هذه الحاسبة أداة مساعدة للتقدير وليست فتوى شرعية. قد تختلف أحكام الزكاة باختلاف نوع المال والديون والظروف، لذلك يُستحسن سؤال جهة علمية موثوقة عند وجود حالة خاصة.</p>
+<h2>كيف تحسب الحاسبة الزكاة؟</h2>
+<p>تجمع الحاسبة الأموال والأصول المدخلة، ثم تقارن إجمالي المال الزكوي بالنصاب. فإذا بلغ المال النصاب، وكان الحول قد اكتمل في الأموال التي يشترط لها الحول، تحسب الزكاة بنسبة <strong>2.5%</strong>.</p>
+<p><strong>مثال حسابي:</strong> إذا كان المال الزكوي 10,000$ وكان مستحقًا للزكاة، فإن 2.5% منه = 250$.</p>
+</section>
+
+<section>
+<h2>معلومة شرعية مهمة</h2>
+<p>هذه الحاسبة أداة مساعدة للتقدير وليست فتوى شرعية. أحكام الزكاة قد تختلف باختلاف نوع المال والديون والحول والمذهب والحالة الخاصة، لذلك يُستحسن سؤال عالم أو جهة علمية موثوقة عند وجود حالة تحتاج إلى تفصيل.</p>
 </section>
 </div>
 <footer>
