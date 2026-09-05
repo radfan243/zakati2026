@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://zakatalmuslim.com/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
-  <url><loc>https://zakatalmuslim.com/guide.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://zakatalmuslim.com/faq.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://zakatalmuslim.com/about.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://zakatalmuslim.com/privacy.html</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
-  <url><loc>https://zakatalmuslim.com/terms.html</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
-  <url><loc>https://zakatalmuslim.com/contact.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://zakatalmuslim.uk/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://zakatalmuslim.uk/guide.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://zakatalmuslim.uk/faq.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://zakatalmuslim.uk/about.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://zakatalmuslim.uk/privacy.html</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://zakatalmuslim.uk/terms.html</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://zakatalmuslim.uk/contact.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
 </urlset>
